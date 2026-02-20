@@ -1,0 +1,17 @@
+{
+  "name": "azure-url-shortener-node22",
+  "version": "1.0.0",
+  "description": "URL Shortener demo app for Azure — Node 22 LTS",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
